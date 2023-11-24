@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="Game-container">
+        <div class="info-container">
+            <div class="info">
+                <span id="namedisplay">Name</span>
+                <span id="nicknamedisplay">Nickname
+                </span>
+            </div>
+            <div class="info">
+             <p>Time:<span id="time">0</span>s</p>
+             <p>Clicks:<span id="clicks">0</span></p>
+            </div>
+        </div>
+
+        <div id="game">
+            <div class="tile-container">
+            
+               <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile bombcontainer">
+                    <div class=" tileback bomb">
+                    <img class="cardvalue" src="Assets/mine.svg" alt="">
+                    </div>
+                    <div class="bombtile tilefront"></div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+                
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+
+                <div class="tile">
+                    <div class=" tileback empty">
+                    <p>0</p>
+                    </div>
+                    <div class=" tilefront">  </div>
+                </div>
+               
+            </div>
+     </div>   </div>
+    </div>
+    <script src="app2.js"></script>
+    <!-- <button><a href="gameover.html">GameOver</a></button> -->
+</body>
+</html>
